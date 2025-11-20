@@ -95,7 +95,7 @@ services:
     env_file:
       - .env
     <<: *celery-depends-on
-    network_mode: "service:openvpn"
+  #  network_mode: "service:openvpn"
 
   celerybeat:
     image: openwisp/openwisp-dashboard:latest
