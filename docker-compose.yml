@@ -224,9 +224,3 @@ volumes:
   openwisp_media: {}
   openwisp_static: {}
   openwisp_private_storage: {}
-
-networks:
-  default:
-    ipam:
-      config:
-        - subnet: 172.18.0.0/16
